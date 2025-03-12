@@ -1,3 +1,11 @@
+/* NOTICE: This file was altered from the original by Upper Tech Consulting Group. 
+    The original version may be found in this repo: https://github.com/BlueFletch/motorola-datawedge-cordova-plugin
+
+    This entire file, including any changes made by Upper Tech Consulting Group, is licensed under the
+    Apache License 2.0.
+
+    http://www.apache.org/licenses/LICENSE-2.0
+*/
 package com.bluefletch.motorola;
 
 import android.content.BroadcastReceiver;
