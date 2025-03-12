@@ -1,4 +1,9 @@
 Cordova Motorola DataWedge Plugin
+
+This is a fork of the original BlueFletch DataWedge plugin. It's been updated to work on Android 14 with Build Tools 34 or greater.
+Specifically, in Build Tools 34, a new required parameter has been added to android.content.Context.registerReceiver().
+See: https://developer.android.com/about/versions/14/behavior-changes-14 : Runtime-registered broadcasts receivers must specify export behavior
+
 ============
 
 This is a Cordova/Phonegap plugin to interact with Motorola ruggedized devices' Barcode Scanners and Magnetic Stripe Readers (eg, ET1, MC40, TC55).  The plugin works by interacting with the "DataWedge" application configured to output scan and magstripe events.
